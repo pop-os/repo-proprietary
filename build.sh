@@ -38,5 +38,5 @@ merge_repos
 
 cd build
 bash acquire_assets.sh # fetches files needed to create CUDA packages
-deprep build
+debrep build
 cd ..
