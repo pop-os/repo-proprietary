@@ -24,11 +24,11 @@ version = "4.1.2"
 
 [[direct]]
 name = "slack-desktop"
-version = "3.1.1"
+version = "3.2.1"
 
     [[direct.urls]]
     url = "https://downloads.slack-edge.com/linux_releases/${name}-${version}-amd64.deb"
-    checksum = "a966e446d3e5a5ab2373fcd29afddd720cdfe47438009d1086ee532fab884c37"
+    checksum = "503995fe48cdb435a479669971e2a7ea7223428adc3c4f9fee94dbbdf9bcad24"
     arch = "amd64"
 
 [[direct]]
@@ -41,11 +41,11 @@ version = "1.0.80.480.g51b03ac3-13"
 
 [[direct]]
 name = "code"
-version = "1.22.2-1523551015"
+version = "1.25.1-1531323788"
 
     [[direct.urls]]
-    url = "https://az764295.vo.msecnd.net/stable/3aeede733d9a3098f7b4bdc1f66b63b0f48c1ef9/code_1.22.2-1523551015_amd64.deb"
-    checksum = "421ab814a82ec205ccca1a31150f2f9a437a2311417a2810fb62e599a40c754c"
+    url = "https://az764295.vo.msecnd.net/stable/1dfc5e557209371715f655691b1235b6b26a06be/code_1.25.1-1531323788_amd64.deb"
+    checksum = "df7785f4b267407cbd3d58c3e4e210edbbee744fcf0bb5ae12bc4f8f4d796351"
 
 [[direct]]
 name = "peek"
