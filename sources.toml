@@ -11,7 +11,6 @@ version = "1.28.1"
     [[direct.urls]]
     url = "https://github.com/${name}/${name}/releases/download/v${version}/${name}-amd64.deb"
     checksum = "9d567ce28792640d9a2446b1f5992bc04b4cf4c92b459bd2c92016c2f4b2f00e"
-    arch = "amd64"
 
 [[direct]]
 name = "mattermost-desktop"
@@ -20,7 +19,6 @@ version = "4.1.2"
     [[direct.urls]]
     url = "https://releases.mattermost.com/desktop/${version}/${name}-${version}-linux-amd64.deb"
     checksum = "9c53abf8b2e50d9eae02cb1cbebe0e006091388c7ce49d26f95b93e2a7df6ffb"
-    arch = "amd64"
 
 [[direct]]
 name = "slack-desktop"
@@ -29,7 +27,6 @@ version = "3.2.1"
     [[direct.urls]]
     url = "https://downloads.slack-edge.com/linux_releases/${name}-${version}-amd64.deb"
     checksum = "503995fe48cdb435a479669971e2a7ea7223428adc3c4f9fee94dbbdf9bcad24"
-    arch = "amd64"
 
 [[direct]]
 name = "spotify-client"
@@ -110,7 +107,6 @@ version = "current"
 
     [[direct.urls]]
     url = "https://release.gitkraken.com/linux/${name}-amd64.deb"
-    arch = "amd64"
 
 [[direct]]
 name = "wire-desktop"
