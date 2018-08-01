@@ -115,3 +115,8 @@ version = "3.2.2840"
     [[direct.urls]]
     url = "https://github.com/wireapp/${name}/releases/download/release/${version}/wire_${version}_amd64.deb"
     checksum = "79702ccdcaf051c39cb6d1c322e43b2b54bb7f93c08275c83cd5564d92aee962"
+
+[[source]]
+name = "piserver"
+build_on = "changelog"
+"location.url" = "https://github.com/raspberrypi/piserver"
