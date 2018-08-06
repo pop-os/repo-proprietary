@@ -119,4 +119,6 @@ version = "3.2.2840"
 [[source]]
 name = "piserver"
 build_on = "changelog"
-"location.url" = "https://github.com/raspberrypi/piserver"
+
+    [source.location]
+    git = "https://github.com/raspberrypi/piserver"
