@@ -95,11 +95,11 @@ version = "1.0.0.54+repack-5ubuntu1"
 
 [[direct]]
 name = "android-studio"
-version = "173.4819257~bionic"
+version = "173.4907809~bionic"
 
     [[direct.urls]]
     url = "http://ppa.launchpad.net/maarten-fonville/${name}/ubuntu/pool/main/a/${name}/${name}_${version}_amd64.deb"
-    checksum = "4e06b6971544a12d6cb7e122411e15feb2ee66793d13a94c18cac78d56a55558"
+    checksum = "c8502e75ef243a5ae6133d6b60fe5d714c7c562ba2d87a4fbe7069f82263db4f"
 
 [[direct]]
 name = "gitkraken"
