@@ -32,9 +32,14 @@ function merge_repos {
 	rsync -avz --exclude='sources.toml' --exclude='README.md' cuda/ build/
 }
 
+function copy_assets {
+	rsync -avz assets build/
+}
+
 install_debrep
 update_submodules
 merge_repos
+copy_assets
 
 cd build
 bash acquire_assets.sh # fetches files needed to create CUDA packages
