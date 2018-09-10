@@ -41,8 +41,8 @@ name = "code"
 version = "1.27.0-1536125615"
 
     [[direct.urls]]
-    url = "https://az764295.vo.msecnd.net/stable/7b9afc4196bda60b0facdf62cfc02815509b23d6/code_1.27.0-1536125615_amd64.deb"
-    checksum = "5710f9b455e07481d3333a21b7ed6fe990235381a1a26331c476f2d6cc6ded94"
+    url = "https://az764295.vo.msecnd.net/stable/5944e81f3c46a3938a82c701f96d7a59b074cfdc/code_1.27.1-1536226049_amd64.deb"
+    checksum = "91dd40c1f454dfed72f831ebe0c7b058523efe66a223ab1211d786b5120a8d14"
 
 [[direct]]
 name = "peek"
@@ -62,11 +62,11 @@ version = "1.3.1-0~ppa23~ubuntu18.04.1"
 
 [[direct]]
 name = "signal-desktop"
-version = "1.15.5"
+version = "1.16.0"
 
     [[direct.urls]]
     url = "https://updates.signal.org/desktop/apt/pool/main/s/${name}/${name}_${version}_amd64.deb"
-    checksum = "13e93eafe8e438da6fd921765062946e57a6b7cf1cbd7c7f345f35b8ba9fc3a8"
+    checksum = "2a71b529979538dcabb0b3ab1531289417ebe2cc3276d097c75046876a808543"
 
 [[direct]]
 name = "google-chrome-stable"
