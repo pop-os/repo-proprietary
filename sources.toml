@@ -38,11 +38,11 @@ version = "1.0.80.480.g51b03ac3-13"
 
 [[direct]]
 name = "code"
-version = "1.27.0-1536125615"
+version = "1.27.2-1536736588"
 
     [[direct.urls]]
-    url = "https://az764295.vo.msecnd.net/stable/5944e81f3c46a3938a82c701f96d7a59b074cfdc/code_1.27.1-1536226049_amd64.deb"
-    checksum = "91dd40c1f454dfed72f831ebe0c7b058523efe66a223ab1211d786b5120a8d14"
+    url = "https://az764295.vo.msecnd.net/stable/f46c4c469d6e6d8c46f268d1553c5dc4b475840f/code_1.27.2-1536736588_amd64.deb"
+    checksum = "35aedf314a3d886e1affac8591904ba0b1ffb7e20075acabf7bfeec1fa2b6515"
 
 [[direct]]
 name = "peek"
