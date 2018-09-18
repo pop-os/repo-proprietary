@@ -62,11 +62,11 @@ version = "1.3.1-0~ppa23~ubuntu18.04.1"
 
 [[direct]]
 name = "signal-desktop"
-version = "1.16.0"
+version = "1.16.1"
 
     [[direct.urls]]
     url = "https://updates.signal.org/desktop/apt/pool/main/s/${name}/${name}_${version}_amd64.deb"
-    checksum = "2a71b529979538dcabb0b3ab1531289417ebe2cc3276d097c75046876a808543"
+    checksum = "852e63a7bcf5bba0e0ab8dab9468e69749543a06828a6857e272fd328d5d91e2"
 
 [[direct]]
 name = "google-chrome-stable"
