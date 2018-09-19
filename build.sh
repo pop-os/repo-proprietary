@@ -20,7 +20,7 @@ function install_debrep {
 }
 
 function update_submodules {
-	git submodule update --init --recursive
+	git submodule foreach git pull origin master
 }
 
 function merge_repos {
