@@ -62,11 +62,11 @@ version = "1.3.1-0~ppa23~ubuntu18.04.1"
 
 [[direct]]
 name = "signal-desktop"
-version = "1.16.0"
+version = "1.16.2"
 
     [[direct.urls]]
     url = "https://updates.signal.org/desktop/apt/pool/main/s/${name}/${name}_${version}_amd64.deb"
-    checksum = "2a71b529979538dcabb0b3ab1531289417ebe2cc3276d097c75046876a808543"
+    checksum = "7ec0e5ad80135b60a8fb7bce37f5182dff637b5e6453e85184b95ec4744127c8"
 
 [[direct]]
 name = "google-chrome-stable"
@@ -110,11 +110,11 @@ version = "current"
 
 [[direct]]
 name = "wire-desktop"
-version = "3.2.2840"
+version = "3.3.2872"
 
     [[direct.urls]]
     url = "https://github.com/wireapp/${name}/releases/download/release/${version}/wire_${version}_amd64.deb"
-    checksum = "79702ccdcaf051c39cb6d1c322e43b2b54bb7f93c08275c83cd5564d92aee962"
+    checksum = "fca2cabdd934dca956525b60f97dd2712120499c7f10b10259fe4701439ada13"
 
 [[source]]
 name = "piserver"

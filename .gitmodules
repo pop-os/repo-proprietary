@@ -1,3 +1,4 @@
 [submodule "cuda"]
 	path = cuda
 	url = https://github.com/system76/cuda
+	branch = master
