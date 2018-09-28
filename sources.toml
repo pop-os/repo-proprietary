@@ -6,11 +6,11 @@ email = "info@system76.com"
 
 [[direct]]
 name = "atom"
-version = "1.30.0"
+version = "1.31.1"
 
     [[direct.urls]]
     url = "https://github.com/${name}/${name}/releases/download/v${version}/${name}-amd64.deb"
-    checksum = "fa63b33e4647a84e20e5faa96bf8c3aa92332098cf5d9a43a1890896acfb11c3"
+    checksum = "6bf99fe2b1c745f31c8e5efda1b3d78612f09453040e23792a6e9016e045c853"
 
 [[direct]]
 name = "mattermost-desktop"
@@ -22,19 +22,19 @@ version = "4.1.2"
 
 [[direct]]
 name = "slack-desktop"
-version = "3.2.1"
+version = "3.3.1"
 
     [[direct.urls]]
     url = "https://downloads.slack-edge.com/linux_releases/${name}-${version}-amd64.deb"
-    checksum = "503995fe48cdb435a479669971e2a7ea7223428adc3c4f9fee94dbbdf9bcad24"
+    checksum = "11c3294a68a0e5f0d36d90460c4e0b61629305e0217ec9ea058c3b222e25c3a1"
 
 [[direct]]
 name = "spotify-client"
-version = "1.0.80.480.g51b03ac3-13"
+version = "1.0.89.313.g34a58dea-5"
 
     [[direct.urls]]
     url = "http://repository.spotify.com/pool/non-free/s/${name}/${name}_${version}_amd64.deb"
-    checksum = "e32f4816ae79dbfa0c14086e76df3bc83d526402aac1dbba534127fc00fe50ea"
+    checksum = "2d563ce0c8ed62e3ea37ee9a7d3f5fe6bb262f8773f556ff0a0a836706d2a8ab"
 
 [[direct]]
 name = "code"
