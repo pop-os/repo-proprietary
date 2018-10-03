@@ -31,7 +31,6 @@ function merge_repo {
 function merge_repos {
 	mkdir -p build
 
-	cp debian build
 	cp sources.toml build/sources.toml
 
 	merge_repo cuda
