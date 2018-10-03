@@ -2,3 +2,7 @@
 	path = cuda
 	url = https://github.com/system76/cuda
 	branch = master
+[submodule "natron"]
+	path = natron
+	url = https://github.com/pop-os/packaging-natron
+	branch = master

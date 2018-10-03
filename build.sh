@@ -23,13 +23,19 @@ function update_submodules {
 	git submodule update --init --recursive --remote
 }
 
+function merge_repo {
+	tail -n +6 $1/sources.toml >> build/sources.toml
+	rsync -avz --exclude='sources.toml' --exclude='README.md' $1/ build/
+}
+
 function merge_repos {
 	mkdir -p build
 
+	cp debian build
 	cp sources.toml build/sources.toml
-	tail -n +6 cuda/sources.toml >> build/sources.toml
 
-	rsync -avz --exclude='sources.toml' --exclude='README.md' cuda/ build/
+	merge_repo cuda
+	merge_repo natron
 }
 
 function copy_assets {
