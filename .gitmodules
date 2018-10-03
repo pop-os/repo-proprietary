@@ -4,5 +4,5 @@
 	branch = master
 [submodule "natron"]
 	path = natron
-	url = git@github.com:pop-os/packaging-natron.git
+	url = https://github.com/pop-os/packaging-natron
 	branch = master
