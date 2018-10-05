@@ -25,7 +25,11 @@ function update_submodules {
 
 function merge_repo {
 	tail -n +6 $1/sources.toml >> build/sources.toml
-	rsync -avz --exclude='sources.toml' --exclude='README.md' $1/ build/
+	rsync -avz --exclude='LICENSE' \
+		--exclude='sources.toml' \
+		--exclude='README.md' \
+		$1/ \
+		build/
 }
 
 function merge_repos {
@@ -34,6 +38,7 @@ function merge_repos {
 	cp sources.toml build/sources.toml
 
 	merge_repo cuda
+	merge_repo repo-curated-free
 	merge_repo natron
 }
 

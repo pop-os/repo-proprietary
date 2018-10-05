@@ -5,22 +5,6 @@ label = "System76"
 email = "info@system76.com"
 
 [[direct]]
-name = "atom"
-version = "1.31.1"
-
-    [[direct.urls]]
-    url = "https://github.com/${name}/${name}/releases/download/v${version}/${name}-amd64.deb"
-    checksum = "6bf99fe2b1c745f31c8e5efda1b3d78612f09453040e23792a6e9016e045c853"
-
-[[direct]]
-name = "mattermost-desktop"
-version = "4.1.2"
-
-    [[direct.urls]]
-    url = "https://releases.mattermost.com/desktop/${version}/${name}-${version}-linux-amd64.deb"
-    checksum = "9c53abf8b2e50d9eae02cb1cbebe0e006091388c7ce49d26f95b93e2a7df6ffb"
-
-[[direct]]
 name = "slack-desktop"
 version = "3.3.1"
 
@@ -43,22 +27,6 @@ version = "1.27.2-1536736588"
     [[direct.urls]]
     url = "https://az764295.vo.msecnd.net/stable/f46c4c469d6e6d8c46f268d1553c5dc4b475840f/code_1.27.2-1536736588_amd64.deb"
     checksum = "35aedf314a3d886e1affac8591904ba0b1ffb7e20075acabf7bfeec1fa2b6515"
-
-[[direct]]
-name = "peek"
-version = "1.3.1-0~ppa23~ubuntu18.04.1"
-
-    [[direct.urls]]
-    url = "http://ppa.launchpad.net/${name}-developers/stable/ubuntu/pool/main/p/${name}/${name}_${version}_amd64.deb"
-    checksum = "5119d80a95486694df408f0c99fc9e0f8ced5cf407814b1b34cc533b4517bd29"
-
-    [[direct.urls]]
-    url = "http://ppa.launchpad.net/${name}-developers/stable/ubuntu/pool/main/p/${name}/${name}_${version}.tar.xz"
-    checksum = "2c9a2bc768788e40daccf91c6e26366cc457147836a78f22d656cc09ec042a31"
-
-    [[direct.urls]]
-    url = "http://ppa.launchpad.net/${name}-developers/stable/ubuntu/pool/main/p/${name}/${name}_${version}.dsc"
-    checksum = "9cf437d5fd4bee173ee3fdece8529c1503f7ad91011b9137ceefe6df7e4e373a"
 
 [[direct]]
 name = "signal-desktop"
@@ -107,19 +75,3 @@ version = "current"
 
     [[direct.urls]]
     url = "https://release.gitkraken.com/linux/${name}-amd64.deb"
-
-[[direct]]
-name = "wire-desktop"
-version = "3.3.2872"
-
-    [[direct.urls]]
-    url = "https://github.com/wireapp/${name}/releases/download/release/${version}/wire_${version}_amd64.deb"
-    checksum = "fca2cabdd934dca956525b60f97dd2712120499c7f10b10259fe4701439ada13"
-
-[[source]]
-name = "piserver"
-build_on = "changelog"
-
-    [source.location]
-    git = "https://github.com/raspberrypi/piserver"
-
