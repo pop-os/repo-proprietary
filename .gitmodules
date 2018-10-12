@@ -6,3 +6,7 @@
 	path = natron
 	url = https://github.com/pop-os/packaging-natron
 	branch = master
+[submodule "repo-curated-free"]
+	path = repo-curated-free
+	url = https://github.com/pop-os/repo-curated-free.git
+	branch = master

@@ -1,0 +1,69 @@
+archive = "cosmic"
+version = "18.04"
+origin = "system76"
+label = "System76"
+email = "info@system76.com"
+
+[[direct]]
+name = "slack-desktop"
+version = "3.3.1"
+
+    [[direct.urls]]
+    url = "https://downloads.slack-edge.com/linux_releases/${name}-${version}-amd64.deb"
+    checksum = "11c3294a68a0e5f0d36d90460c4e0b61629305e0217ec9ea058c3b222e25c3a1"
+
+[[direct]]
+name = "spotify-client"
+version = "1.0.89.313.g34a58dea-5"
+
+    [[direct.urls]]
+    url = "http://repository.spotify.com/pool/non-free/s/${name}/${name}_${version}_amd64.deb"
+    checksum = "2d563ce0c8ed62e3ea37ee9a7d3f5fe6bb262f8773f556ff0a0a836706d2a8ab"
+
+[[direct]]
+name = "code"
+version = "1.27.2-1536736588"
+
+    [[direct.urls]]
+    url = "https://az764295.vo.msecnd.net/stable/f46c4c469d6e6d8c46f268d1553c5dc4b475840f/code_1.27.2-1536736588_amd64.deb"
+    checksum = "35aedf314a3d886e1affac8591904ba0b1ffb7e20075acabf7bfeec1fa2b6515"
+
+[[direct]]
+name = "signal-desktop"
+version = "1.16.2"
+
+    [[direct.urls]]
+    url = "https://updates.signal.org/desktop/apt/pool/main/s/${name}/${name}_${version}_amd64.deb"
+    checksum = "7ec0e5ad80135b60a8fb7bce37f5182dff637b5e6453e85184b95ec4744127c8"
+
+[[direct]]
+name = "google-chrome-stable"
+version = "current"
+
+    [[direct.urls]]
+    url = "https://dl.google.com/linux/direct/${name}_${version}_amd64.deb"
+
+[[direct]]
+name = "steam"
+version = "1.0.0.54+repack-5ubuntu1"
+
+    [[direct.urls]]
+    url = "http://us.archive.ubuntu.com/ubuntu/pool/multiverse/s/steam/${name}_${version}_i386.deb"
+    checksum = "a3436f5dced446fb98f14db559017e55de6c3da12dd60cf5a33d689ea6c39a34"
+
+    [[direct.urls]]
+    name = "steam-installer"
+    url = "http://us.archive.ubuntu.com/ubuntu/pool/multiverse/s/steam/${name}_${version}_all.deb"
+    checksum = "907d60e8983dc49f2a33dfd092b36790f3320fe2102c4afddb0810ec042e75c0"
+
+    [[direct.urls]]
+    name = "steam-devices"
+    url = "http://us.archive.ubuntu.com/ubuntu/pool/multiverse/s/steam/${name}_${version}_all.deb"
+    checksum = "0c1aad76aaf0e4c6c9e4a151342be4d5499387e4e6597c3a9ea8878b3f787cba"
+
+[[direct]]
+name = "gitkraken"
+version = "current"
+
+    [[direct.urls]]
+    url = "https://release.gitkraken.com/linux/${name}-amd64.deb"

@@ -24,16 +24,23 @@ function update_submodules {
 }
 
 function merge_repo {
-	tail -n +6 $1/sources.toml >> build/sources.toml
-	rsync -avz --exclude='sources.toml' --exclude='README.md' $1/ build/
+	tail -n +6 $1/suites/bionic.toml >> build/suites/bionic.toml
+	tail -n +6 $1/suites/cosmic.toml >> build/suites/cosmic.toml
+	rsync -avz --exclude='LICENSE' \
+		--exclude='suites/' \
+		--exclude='README.md' \
+		$1/ \
+		build/
 }
 
 function merge_repos {
-	mkdir -p build
+	mkdir -p build/suites/
 
-	cp sources.toml build/sources.toml
+	cp suites/bionic.toml build/suites/bionic.toml
+	cp suites/cosmic.toml build/suites/cosmic.toml
 
 	merge_repo cuda
+	merge_repo repo-curated-free
 	merge_repo natron
 }
 
