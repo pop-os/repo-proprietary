@@ -61,13 +61,13 @@ version = "1.0.0.54+repack-5ubuntu1"
     url = "http://us.archive.ubuntu.com/ubuntu/pool/multiverse/s/steam/${name}_${version}_all.deb"
     checksum = "0c1aad76aaf0e4c6c9e4a151342be4d5499387e4e6597c3a9ea8878b3f787cba"
 
-[[direct]]
-name = "android-studio"
-version = "173.4907809~bionic"
-
-    [[direct.urls]]
-    url = "http://ppa.launchpad.net/maarten-fonville/${name}/ubuntu/pool/main/a/${name}/${name}_${version}_amd64.deb"
-    checksum = "c8502e75ef243a5ae6133d6b60fe5d714c7c562ba2d87a4fbe7069f82263db4f"
+# [[direct]]
+# name = "android-studio"
+# version = "173.4907809~bionic"
+#
+#    [[direct.urls]]
+#    url = "http://ppa.launchpad.net/maarten-fonville/${name}/ubuntu/pool/main/a/${name}/${name}_${version}_amd64.deb"
+#    checksum = "c8502e75ef243a5ae6133d6b60fe5d714c7c562ba2d87a4fbe7069f82263db4f"
 
 [[direct]]
 name = "gitkraken"
