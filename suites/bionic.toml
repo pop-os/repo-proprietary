@@ -22,11 +22,11 @@ version = "1.0.89.313.g34a58dea-5"
 
 [[direct]]
 name = "code"
-version = "1.27.2-1536736588"
+version = "1.28.1-1539281690"
 
     [[direct.urls]]
-    url = "https://az764295.vo.msecnd.net/stable/f46c4c469d6e6d8c46f268d1553c5dc4b475840f/code_1.27.2-1536736588_amd64.deb"
-    checksum = "35aedf314a3d886e1affac8591904ba0b1ffb7e20075acabf7bfeec1fa2b6515"
+    url = "https://az764295.vo.msecnd.net/stable/3368db6750222d319c851f6d90eb619d886e08f5/code_1.28.1-1539281690_amd64.deb"
+    checksum = "bc96c7593b8394d1efd12e5971228bed5215b662e4a5a1f3f02ff0dc908666eb"
 
 [[direct]]
 name = "signal-desktop"
