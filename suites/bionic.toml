@@ -22,19 +22,19 @@ version = "1.0.89.313.g34a58dea-5"
 
 [[direct]]
 name = "code"
-version = "1.28.1-1539281690"
+version = "1.28.2-1539735992"
 
     [[direct.urls]]
-    url = "https://az764295.vo.msecnd.net/stable/3368db6750222d319c851f6d90eb619d886e08f5/code_1.28.1-1539281690_amd64.deb"
-    checksum = "bc96c7593b8394d1efd12e5971228bed5215b662e4a5a1f3f02ff0dc908666eb"
+    url = "https://az764295.vo.msecnd.net/stable/7f3ce96ff4729c91352ae6def877e59c561f4850/code_1.28.2-1539735992_amd64.deb"
+    checksum = "fa5f9a4349edc2b9931631c67fdfaa920270ab1b27c34e3841d987406a588dd4"
 
 [[direct]]
 name = "signal-desktop"
-version = "1.16.2"
+version = "1.17.0"
 
     [[direct.urls]]
     url = "https://updates.signal.org/desktop/apt/pool/main/s/${name}/${name}_${version}_amd64.deb"
-    checksum = "7ec0e5ad80135b60a8fb7bce37f5182dff637b5e6453e85184b95ec4744127c8"
+    checksum = "40767374873c3891dc9ed1f27f13207c4caa2645d172f43125796fc83cba5d35"
 
 [[direct]]
 name = "google-chrome-stable"
@@ -60,14 +60,6 @@ version = "1.0.0.54+repack-5ubuntu1"
     name = "steam-devices"
     url = "http://us.archive.ubuntu.com/ubuntu/pool/multiverse/s/steam/${name}_${version}_all.deb"
     checksum = "0c1aad76aaf0e4c6c9e4a151342be4d5499387e4e6597c3a9ea8878b3f787cba"
-
-# [[direct]]
-# name = "android-studio"
-# version = "173.4907809~bionic"
-#
-#    [[direct.urls]]
-#    url = "http://ppa.launchpad.net/maarten-fonville/${name}/ubuntu/pool/main/a/${name}/${name}_${version}_amd64.deb"
-#    checksum = "c8502e75ef243a5ae6133d6b60fe5d714c7c562ba2d87a4fbe7069f82263db4f"
 
 [[direct]]
 name = "gitkraken"
