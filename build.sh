@@ -34,8 +34,9 @@ function merge_repo {
 }
 
 function merge_repos {
-	mkdir -p build/suites/
+	mkdir -p build/{keys,suites}
 
+	cp keys/* build/keys/
 	cp suites/bionic.toml build/suites/bionic.toml
 	cp suites/cosmic.toml build/suites/cosmic.toml
 
