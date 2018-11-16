@@ -7,35 +7,35 @@ extra_repos = [ "deb http://ppa.launchpad.net/system76/pop/ubuntu bionic main" ]
 
 [[direct]]
 name = "slack-desktop"
-version = "3.3.1"
+version = "3.3.3"
 
     [[direct.urls]]
     url = "https://downloads.slack-edge.com/linux_releases/${name}-${version}-amd64.deb"
-    checksum = "11c3294a68a0e5f0d36d90460c4e0b61629305e0217ec9ea058c3b222e25c3a1"
+    checksum = "d12dcc09f75af35b949068dd2b46c4e2a1990b8c7d3b3fdd4fc40b539755a407"
 
 [[direct]]
 name = "spotify-client"
-version = "1.0.89.313.g34a58dea-5"
+version = "1.0.92.390.g2ce5ec7d-18"
 
     [[direct.urls]]
     url = "http://repository.spotify.com/pool/non-free/s/${name}/${name}_${version}_amd64.deb"
-    checksum = "2d563ce0c8ed62e3ea37ee9a7d3f5fe6bb262f8773f556ff0a0a836706d2a8ab"
+    checksum = "039443c918f44f853ef293b5804481b503ae5a5ec63e2bc670e7aecfb6c84f80"
 
 [[direct]]
 name = "code"
-version = "1.28.2-1539735992"
+version = "1.29.1-1542309157"
 
     [[direct.urls]]
-    url = "https://az764295.vo.msecnd.net/stable/7f3ce96ff4729c91352ae6def877e59c561f4850/code_1.28.2-1539735992_amd64.deb"
-    checksum = "fa5f9a4349edc2b9931631c67fdfaa920270ab1b27c34e3841d987406a588dd4"
+    url = "https://az764295.vo.msecnd.net/stable/bc24f98b5f70467bc689abf41cc5550ca637088e/code_1.29.1-1542309157_amd64.deb"
+    checksum = "1b5716b1d92b946896d308182cf7e26ba0d2866e20ac9dd6a6e9decf758f1a24"
 
 [[direct]]
 name = "signal-desktop"
-version = "1.17.0"
+version = "1.18.0"
 
     [[direct.urls]]
     url = "https://updates.signal.org/desktop/apt/pool/main/s/${name}/${name}_${version}_amd64.deb"
-    checksum = "40767374873c3891dc9ed1f27f13207c4caa2645d172f43125796fc83cba5d35"
+    checksum = "9b6c3f0e795f94930c239626684d874a2fbad2f85ada36f85ef0dc566629b850"
 
 [[direct]]
 name = "google-chrome-stable"
