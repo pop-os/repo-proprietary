@@ -23,19 +23,19 @@ version = "1.0.92.390.g2ce5ec7d-18"
 
 [[direct]]
 name = "code"
-version = "1.29.1-1542309157"
+version = "1.30.0-1544567151"
 
     [[direct.urls]]
-    url = "https://az764295.vo.msecnd.net/stable/bc24f98b5f70467bc689abf41cc5550ca637088e/code_1.29.1-1542309157_amd64.deb"
-    checksum = "1b5716b1d92b946896d308182cf7e26ba0d2866e20ac9dd6a6e9decf758f1a24"
+    url = "https://az764295.vo.msecnd.net/stable/c6e592b2b5770e40a98cb9c2715a8ef89aec3d74/code_1.30.0-1544567151_amd64.deb"
+    checksum = "ee58ba5a126ed658f066bd0e1480885f3afa3441246ec311224fed29793d743f"
 
 [[direct]]
 name = "signal-desktop"
-version = "1.18.0"
+version = "1.19.0"
 
     [[direct.urls]]
     url = "https://updates.signal.org/desktop/apt/pool/main/s/${name}/${name}_${version}_amd64.deb"
-    checksum = "9b6c3f0e795f94930c239626684d874a2fbad2f85ada36f85ef0dc566629b850"
+    checksum = "e71b4209c8bf3370b51798ab3d3b282307edcfb90f965345eb992fea6b4145a5"
 
 [[direct]]
 name = "google-chrome-stable"
