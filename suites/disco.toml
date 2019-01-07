@@ -1,0 +1,70 @@
+archive = "disco"
+version = "19.10"
+origin = "system76"
+label = "System76"
+email = "info@system76.com"
+extra_repos = [ "deb http://ppa.launchpad.net/system76/pop/ubuntu cosmic main" ]
+
+[[direct]]
+name = "slack-desktop"
+version = "3.3.3"
+
+    [[direct.urls]]
+    url = "https://downloads.slack-edge.com/linux_releases/${name}-${version}-amd64.deb"
+    checksum = "d12dcc09f75af35b949068dd2b46c4e2a1990b8c7d3b3fdd4fc40b539755a407"
+
+[[direct]]
+name = "spotify-client"
+version = "1.0.92.390.g2ce5ec7d-18"
+
+    [[direct.urls]]
+    url = "http://repository.spotify.com/pool/non-free/s/${name}/${name}_${version}_amd64.deb"
+    checksum = "039443c918f44f853ef293b5804481b503ae5a5ec63e2bc670e7aecfb6c84f80"
+
+[[direct]]
+name = "code"
+version = "1.30.0-1544567151"
+
+    [[direct.urls]]
+    url = "https://az764295.vo.msecnd.net/stable/c6e592b2b5770e40a98cb9c2715a8ef89aec3d74/code_1.30.0-1544567151_amd64.deb"
+    checksum = "ee58ba5a126ed658f066bd0e1480885f3afa3441246ec311224fed29793d743f"
+
+[[direct]]
+name = "signal-desktop"
+version = "1.19.0"
+
+    [[direct.urls]]
+    url = "https://updates.signal.org/desktop/apt/pool/main/s/${name}/${name}_${version}_amd64.deb"
+    checksum = "e71b4209c8bf3370b51798ab3d3b282307edcfb90f965345eb992fea6b4145a5"
+
+[[direct]]
+name = "google-chrome-stable"
+version = "current"
+
+    [[direct.urls]]
+    url = "https://dl.google.com/linux/direct/${name}_${version}_amd64.deb"
+
+[[direct]]
+name = "steam"
+version = "1.0.0.54+repack-5ubuntu1"
+
+    [[direct.urls]]
+    url = "http://us.archive.ubuntu.com/ubuntu/pool/multiverse/s/steam/${name}_${version}_i386.deb"
+    checksum = "a3436f5dced446fb98f14db559017e55de6c3da12dd60cf5a33d689ea6c39a34"
+
+    [[direct.urls]]
+    name = "steam-installer"
+    url = "http://us.archive.ubuntu.com/ubuntu/pool/multiverse/s/steam/${name}_${version}_all.deb"
+    checksum = "907d60e8983dc49f2a33dfd092b36790f3320fe2102c4afddb0810ec042e75c0"
+
+    [[direct.urls]]
+    name = "steam-devices"
+    url = "http://us.archive.ubuntu.com/ubuntu/pool/multiverse/s/steam/${name}_${version}_all.deb"
+    checksum = "0c1aad76aaf0e4c6c9e4a151342be4d5499387e4e6597c3a9ea8878b3f787cba"
+
+[[direct]]
+name = "gitkraken"
+version = "current"
+
+    [[direct.urls]]
+    url = "https://release.gitkraken.com/linux/${name}-amd64.deb"
