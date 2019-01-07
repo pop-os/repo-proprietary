@@ -26,6 +26,7 @@ function update_submodules {
 function merge_repo {
 	tail -n +6 $1/suites/bionic.toml | grep -v extra_repos >> build/suites/bionic.toml
 	tail -n +6 $1/suites/cosmic.toml | grep -v extra_repos >> build/suites/cosmic.toml
+	tail -n +6 $1/suites/disco.toml | grep -v extra_repos >> build/suites/disco.toml
 	rsync -avz --exclude='LICENSE' \
 		--exclude='suites/' \
 		--exclude='README.md' \
