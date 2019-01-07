@@ -39,6 +39,7 @@ function merge_repos {
 	cp keys/* build/keys/
 	cp suites/bionic.toml build/suites/bionic.toml
 	cp suites/cosmic.toml build/suites/cosmic.toml
+	cp suites/disco.toml build/suites/disco.toml
 
 	merge_repo cuda
 	merge_repo repo-curated-free
