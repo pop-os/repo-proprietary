@@ -26,7 +26,7 @@ name = "code"
 version = "1.32.3-1552606978"
 
     [[direct.urls]]
-    url = "https://az764295.vo.msecnd.net/stable/1b8e8302e405050205e69b59abb3559592bb9e60/code_1.31.1-1549938243_amd64.deb"
+    url = "https://az764295.vo.msecnd.net/stable/a3db5be9b5c6ba46bb7555ec5d60178ecc2eaae4/code_1.32.3-1552606978_amd64.deb"
     checksum = "3347516c7c657598cf169b404472d5c669346db03c89293e02aeb462e696b4e0"
 
 [[direct]]
