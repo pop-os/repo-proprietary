@@ -31,7 +31,7 @@ version = "1.32.3-1552606978"
 
 [[direct]]
 name = "signal-desktop"
-version = "1.23.0"
+version = "1.23.1"
 
     [[direct.urls]]
     url = "https://updates.signal.org/desktop/apt/pool/main/s/${name}/${name}_${version}_amd64.deb"
