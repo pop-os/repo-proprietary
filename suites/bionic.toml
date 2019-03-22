@@ -23,19 +23,19 @@ version = "1.1.0.237.g378f6f25-11"
 
 [[direct]]
 name = "code"
-version = "1.31.1-1549938243"
+version = "1.32.3-1552606978"
 
     [[direct.urls]]
     url = "https://az764295.vo.msecnd.net/stable/1b8e8302e405050205e69b59abb3559592bb9e60/code_1.31.1-1549938243_amd64.deb"
-    checksum = "fb47deec394997fb6b9f06ed6d0c8417b163f82794a8dd90eb1aa8776b4009f9"
+    checksum = "3347516c7c657598cf169b404472d5c669346db03c89293e02aeb462e696b4e0"
 
 [[direct]]
 name = "signal-desktop"
-version = "1.22.0"
+version = "1.23.0"
 
     [[direct.urls]]
     url = "https://updates.signal.org/desktop/apt/pool/main/s/${name}/${name}_${version}_amd64.deb"
-    checksum = "c54fa57ca8e1f2c2a85869c8b8be357771d76dae6a737b5bb776d0b51d80b3c8"
+    checksum = "99d35ccaf8726bd529f696d2f86c7d465292e94635785ee8729baf2c9515b4ad"
 
 [[direct]]
 name = "google-chrome-stable"
@@ -43,24 +43,6 @@ version = "current"
 
     [[direct.urls]]
     url = "https://dl.google.com/linux/direct/${name}_${version}_amd64.deb"
-
-[[direct]]
-name = "steam"
-version = "1.0.0.54+repack-5ubuntu1"
-
-    [[direct.urls]]
-    url = "http://us.archive.ubuntu.com/ubuntu/pool/multiverse/s/steam/${name}_${version}_i386.deb"
-    checksum = "a3436f5dced446fb98f14db559017e55de6c3da12dd60cf5a33d689ea6c39a34"
-
-    [[direct.urls]]
-    name = "steam-installer"
-    url = "http://us.archive.ubuntu.com/ubuntu/pool/multiverse/s/steam/${name}_${version}_all.deb"
-    checksum = "907d60e8983dc49f2a33dfd092b36790f3320fe2102c4afddb0810ec042e75c0"
-
-    [[direct.urls]]
-    name = "steam-devices"
-    url = "http://us.archive.ubuntu.com/ubuntu/pool/multiverse/s/steam/${name}_${version}_all.deb"
-    checksum = "0c1aad76aaf0e4c6c9e4a151342be4d5499387e4e6597c3a9ea8878b3f787cba"
 
 [[direct]]
 name = "gitkraken"
