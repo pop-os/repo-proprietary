@@ -6,6 +6,22 @@ email = "info@system76.com"
 extra_repos = [ "deb http://ppa.launchpad.net/system76/pop/ubuntu bionic main" ]
 
 [[direct]]
+name = "code"
+version = "1.33.1-1554971066"
+
+    [[direct.urls]]
+    url = "https://az764295.vo.msecnd.net/stable/51b0b28134d51361cf996d2f0a1c698247aeabd8/code_1.33.1-1554971066_amd64.deb"
+    checksum = "b46165fb8cb2046afff69475d9dc398897de5921cf6c8c682fbc41a6d693aded"
+
+[[direct]]
+name = "discord"
+version = "0.0.9"
+
+    [[direct.urls]]
+    url = "https://dl.discordapp.net/apps/linux/0.0.9/discord-0.0.9.deb"
+    checksum = "2a5f0f0e940d2d2dbb9a789baab1a58a54e7dacc598d628b2667b5244df84bbf"
+
+[[direct]]
 name = "slack-desktop"
 version = "3.3.7"
 
@@ -20,14 +36,6 @@ version = "1.1.0.237.g378f6f25-11"
     [[direct.urls]]
     url = "http://repository.spotify.com/pool/non-free/s/${name}/${name}_${version}_amd64.deb"
     checksum = "4b77c6baa59d5e8d8e6f800138fefdf579747cb81615b9711dfa25d6c2d5fa9f"
-
-[[direct]]
-name = "code"
-version = "1.32.3-1552606978"
-
-    [[direct.urls]]
-    url = "https://az764295.vo.msecnd.net/stable/a3db5be9b5c6ba46bb7555ec5d60178ecc2eaae4/code_1.32.3-1552606978_amd64.deb"
-    checksum = "3347516c7c657598cf169b404472d5c669346db03c89293e02aeb462e696b4e0"
 
 [[direct]]
 name = "signal-desktop"
