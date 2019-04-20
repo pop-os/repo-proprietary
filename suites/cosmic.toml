@@ -20,6 +20,7 @@ version = "0.0.9"
     [[direct.urls]]
     url = "https://dl.discordapp.net/apps/linux/0.0.9/discord-0.0.9.deb"
     checksum = "2a5f0f0e940d2d2dbb9a789baab1a58a54e7dacc598d628b2667b5244df84bbf"
+    arch = "amd64"
 
 [[direct]]
 name = "slack-desktop"
