@@ -7,11 +7,11 @@ extra_repos = [ "deb http://ppa.launchpad.net/system76/pop/ubuntu bionic main" ]
 
 [[direct]]
 name = "code"
-version = "1.35.1-1560350270"
+version = "1.36.1-1562627527"
 
     [[direct.urls]]
-    url = "https://az764295.vo.msecnd.net/stable/c7d83e57cd18f18026a8162d042843bda1bcf21f/code_1.35.1-1560350270_amd64.deb"
-    checksum = "c3bb7a6d7953ff4093b8a7229227ad4a9587900866c7e867710086dcd42ba482"
+    url = "https://az764295.vo.msecnd.net/stable/2213894ea0415ee8c85c5eea0d0ff81ecc191529/code_1.36.1-1562627527_amd64.deb"
+    checksum = "397777c2f86826029551395ff93a26781d51b86dd16b5741ae285f283422fd4e"
 
 [[direct]]
 name = "discord"
@@ -32,11 +32,11 @@ version = "3.4.2"
 
 [[direct]]
 name = "spotify-client"
-version = "1.1.5.153.gf614956d-16"
+version = "1.1.10.546.ge08ef575-19"
 
     [[direct.urls]]
     url = "http://repository.spotify.com/pool/non-free/s/${name}/${name}_${version}_amd64.deb"
-    checksum = "a7e189c430af1788c4f7d02ae411bfb38f0eccc5f829218d9dc81e1dab382037"
+    checksum = "da49fd4d222ff7d719345fba6298f38a6422ef293bb43ada13cf857a694a12e6"
 
 [[direct]]
 name = "signal-desktop"
