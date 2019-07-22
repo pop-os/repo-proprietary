@@ -40,11 +40,11 @@ version = "1.1.10.546.ge08ef575-19"
 
 [[direct]]
 name = "signal-desktop"
-version = "1.25.1"
+version = "1.25.3"
 
     [[direct.urls]]
     url = "https://updates.signal.org/desktop/apt/pool/main/s/${name}/${name}_${version}_amd64.deb"
-    checksum = "97863be20e80d72537d5ea169202eb4c123f285ca8be7c3490b8aa91b6be0585"
+    checksum = "2319a0171198890bbf30c8e7ba777cc564904189b71f631cefb19fd4c88df738"
 
 [[direct]]
 name = "google-chrome-stable"
