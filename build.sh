@@ -24,9 +24,9 @@ function update_submodules {
 }
 
 function merge_repo {
-	tail -n +6 $1/suites/bionic.toml | grep -v extra_repos >> build/suites/bionic.toml
-	tail -n +6 $1/suites/cosmic.toml | grep -v extra_repos >> build/suites/cosmic.toml
-	tail -n +6 $1/suites/disco.toml | grep -v extra_repos >> build/suites/disco.toml
+	for suite in bionic cosmic disco eoan; do
+		tail -n +6 $1/suites/$suite.toml | grep -v extra_repos >> build/suites/$suite.toml
+	done
 	rsync -avz --exclude='LICENSE' \
 		--exclude='suites/' \
 		--exclude='README.md' \
@@ -38,9 +38,9 @@ function merge_repos {
 	mkdir -p build/{keys,suites}
 
 	cp keys/* build/keys/
-	cp suites/bionic.toml build/suites/bionic.toml
-	cp suites/cosmic.toml build/suites/cosmic.toml
-	cp suites/disco.toml build/suites/disco.toml
+	for suite in bionic cosmic disco eoan; do
+		cp suites/$suite.toml build/suites/$suite.toml
+	done
 
 	merge_repo cuda
 	merge_repo repo-curated-free
