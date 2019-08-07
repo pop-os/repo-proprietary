@@ -24,7 +24,7 @@ function update_submodules {
 }
 
 function merge_repo {
-	for suite in bionic cosmic disco eoan; do
+	for suite in bionic disco eoan; do
 		tail -n +6 $1/suites/$suite.toml | grep -v extra_repos >> build/suites/$suite.toml
 	done
 	rsync -avz --exclude='LICENSE' \
@@ -38,7 +38,7 @@ function merge_repos {
 	mkdir -p build/{keys,suites}
 
 	cp keys/* build/keys/
-	for suite in bionic cosmic disco eoan; do
+	for suite in bionic disco eoan; do
 		cp suites/$suite.toml build/suites/$suite.toml
 	done
 
