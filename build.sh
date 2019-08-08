@@ -2,19 +2,21 @@
 
 set -ex
 
+SUITES=(bionic disco eoan)
+
 function install_debrep {
-	LATEST=$(git ls-remote https://github.com/pop-os/debrepbuild | grep HEAD | cut -c-7)
+	LATEST="$(git ls-remote https://github.com/pop-os/debrepbuild | grep HEAD | cut -c-7)"
 
 	if type debrep; then
-		CURRENT=$(debrep --version | cut -d' ' -f5 | cut -c2- | cut -c-7)
-	    if [ ! $CURRENT ] || [ $CURRENT != $LATEST ]; then
+		CURRENT="$(debrep --version | cut -d' ' -f5 | cut -c2- | cut -c-7)"
+	    if [ ! "$CURRENT" ] || [ "$CURRENT" != "$LATEST" ]; then
 	    	INSTALL=1
 	    fi
 	else
 		INSTALL=1
 	fi
 
-	if [ $INSTALL ]; then
+	if [ "$INSTALL" ]; then
 		cargo install --git https://github.com/pop-os/debrepbuild --force
 	fi
 }
@@ -24,8 +26,8 @@ function update_submodules {
 }
 
 function merge_repo {
-	for suite in bionic disco eoan; do
-		tail -n +6 $1/suites/$suite.toml | grep -v extra_repos >> build/suites/$suite.toml
+	for suite in "${SUITES[@]}"; do
+		tail -n +6 "$1/suites/$suite.toml" | grep -v extra_repos >> "build/suites/$suite.toml"
 	done
 	rsync -avz --exclude='LICENSE' \
 		--exclude='suites/' \
@@ -38,8 +40,8 @@ function merge_repos {
 	mkdir -p build/{keys,suites}
 
 	cp keys/* build/keys/
-	for suite in bionic disco eoan; do
-		cp suites/$suite.toml build/suites/$suite.toml
+	for suite in "${SUITES[@]}"; do
+		cp "suites/$suite.toml" "build/suites/$suite.toml"
 	done
 
 	merge_repo cuda
