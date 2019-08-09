@@ -8,11 +8,11 @@ extra_repos = [ "deb http://ppa.launchpad.net/system76/pop/ubuntu bionic main" ]
 
 [[direct]]
 name = "code"
-version = "1.36.1-1562627527"
+version = "1.37.0-1565227985"
 
     [[direct.urls]]
-    url = "https://az764295.vo.msecnd.net/stable/2213894ea0415ee8c85c5eea0d0ff81ecc191529/code_1.36.1-1562627527_amd64.deb"
-    checksum = "397777c2f86826029551395ff93a26781d51b86dd16b5741ae285f283422fd4e"
+    url = "https://az764295.vo.msecnd.net/stable/036a6b1d3ac84e5ca96a17a44e63a87971f8fcc8/code_1.37.0-1565227985_amd64.deb"
+    checksum = "b5a7392e9496ddff99cf304d9de11a53b0a0c691ac6c818e218eaf1ed79c9958"
 
 [[direct]]
 name = "discord"
@@ -25,11 +25,11 @@ version = "0.0.9"
 
 [[direct]]
 name = "slack-desktop"
-version = "3.4.2"
+version = "4.0.1"
 
     [[direct.urls]]
     url = "https://downloads.slack-edge.com/linux_releases/${name}-${version}-amd64.deb"
-    checksum = "3833c1abdbd15b50d9f3e4f77deb4bf6d578cfebfeab2b6ee0e84f567d207261"
+    checksum = "6277a6c3d9c1c55813ad4fe1e56702a486ab8ff36ecbef345d1794a3a644ecbc"
 
 [[direct]]
 name = "spotify-client"
