@@ -8,11 +8,11 @@ extra_repos = [ "deb http://ppa.launchpad.net/system76/pop/ubuntu disco main" ]
 
 [[direct]]
 name = "code"
-version = "1.37.0-1565227985"
+version = "1.38.0-1567547996"
 
     [[direct.urls]]
-    url = "https://az764295.vo.msecnd.net/stable/036a6b1d3ac84e5ca96a17a44e63a87971f8fcc8/code_1.37.0-1565227985_amd64.deb"
-    checksum = "b5a7392e9496ddff99cf304d9de11a53b0a0c691ac6c818e218eaf1ed79c9958"
+    url = "https://az764295.vo.msecnd.net/stable/3db7e09f3b61f915d03bbfa58e258d6eee843f35/code_1.38.0-1567547996_amd64.deb"
+    checksum = "c1c1d2ca166260f000e2ce9b3f123b950c8d7e15d4f7569bb8ecde9003724eda"
 
 [[direct]]
 name = "discord"
