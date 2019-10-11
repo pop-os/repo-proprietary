@@ -8,11 +8,11 @@ extra_repos = [ "deb http://ppa.launchpad.net/system76/pop/ubuntu disco main" ]
 
 [[direct]]
 name = "code"
-version = "1.38.0-1567547996"
+version = "1.39.1-1570750687"
 
     [[direct.urls]]
-    url = "https://az764295.vo.msecnd.net/stable/3db7e09f3b61f915d03bbfa58e258d6eee843f35/code_1.38.0-1567547996_amd64.deb"
-    checksum = "c1c1d2ca166260f000e2ce9b3f123b950c8d7e15d4f7569bb8ecde9003724eda"
+    url = "https://az764295.vo.msecnd.net/stable/88f15d17dca836346e787762685a40bb5cce75a8/code_1.39.1-1570750687_amd64.deb"
+    checksum = "bf5a0f1600a6cd26753606de40c12ba598861c4142d77eeab97209ad546631b5"
 
 [[direct]]
 name = "discord"
@@ -25,11 +25,11 @@ version = "0.0.9"
 
 [[direct]]
 name = "slack-desktop"
-version = "4.0.1"
+version = "4.1.1"
 
     [[direct.urls]]
     url = "https://downloads.slack-edge.com/linux_releases/${name}-${version}-amd64.deb"
-    checksum = "6277a6c3d9c1c55813ad4fe1e56702a486ab8ff36ecbef345d1794a3a644ecbc"
+    checksum = "2e84af28a9179faf1a6c64e36e6316792531de1d4530fcd2909e5eae77d1ced9"
 
 [[direct]]
 name = "spotify-client"
@@ -41,11 +41,11 @@ version = "1.1.10.546.ge08ef575-19"
 
 [[direct]]
 name = "signal-desktop"
-version = "1.25.3"
+version = "1.27.4"
 
     [[direct.urls]]
-    url = "https://updates.signal.org/desktop/apt/pool/main/s/${name}/${name}_${version}_amd64.deb"
-    checksum = "2319a0171198890bbf30c8e7ba777cc564904189b71f631cefb19fd4c88df738"
+    url = "https://updates.signal.org/desktop/apt/pool/main/s/signal-desktop/signal-desktop_1.27.4_amd64.deb"
+    checksum = "5297d7efe843c61ee5e874009a076ec5b6f74974b79675f6c4a9ff0e8e0eeaab"
 
 [[direct]]
 name = "google-chrome-stable"
