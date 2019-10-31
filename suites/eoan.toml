@@ -8,11 +8,11 @@ extra_repos = [ "deb http://ppa.launchpad.net/system76/pop/ubuntu eoan main" ]
 
 [[direct]]
 name = "code"
-version = "1.39.1-1570750687"
+version = "1.39.2-1571154070"
 
     [[direct.urls]]
-    url = "https://az764295.vo.msecnd.net/stable/88f15d17dca836346e787762685a40bb5cce75a8/code_1.39.1-1570750687_amd64.deb"
-    checksum = "bf5a0f1600a6cd26753606de40c12ba598861c4142d77eeab97209ad546631b5"
+    url = "https://az764295.vo.msecnd.net/stable/6ab598523be7a800d7f3eb4d92d7ab9a66069390/code_1.39.2-1571154070_amd64.deb"
+    checksum = "1a0360d72697d3ca9f480f0b677889a8e9eca991eaff682d69af48a2e7e500f5"
 
 [[direct]]
 name = "discord"
