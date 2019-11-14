@@ -8,11 +8,11 @@ extra_repos = [ "deb http://ppa.launchpad.net/system76/pop/ubuntu eoan main" ]
 
 [[direct]]
 name = "code"
-version = "1.39.2-1571154070"
+version = "1.40.1-1573664190"
 
     [[direct.urls]]
-    url = "https://az764295.vo.msecnd.net/stable/6ab598523be7a800d7f3eb4d92d7ab9a66069390/code_1.39.2-1571154070_amd64.deb"
-    checksum = "1a0360d72697d3ca9f480f0b677889a8e9eca991eaff682d69af48a2e7e500f5"
+    url = "https://az764295.vo.msecnd.net/stable/8795a9889db74563ddd43eb0a897a2384129a619/code_1.40.1-1573664190_amd64.deb"
+    checksum = "c2d5e38f9b1d878863931a8cf5190f95efdf83e5d8300b532142b1d14e00e657"
 
 [[direct]]
 name = "discord"
@@ -41,11 +41,11 @@ version = "1.1.10.546.ge08ef575-19"
 
 [[direct]]
 name = "signal-desktop"
-version = "1.27.4"
+version = "1.28.0"
 
     [[direct.urls]]
-    url = "https://updates.signal.org/desktop/apt/pool/main/s/signal-desktop/signal-desktop_1.27.4_amd64.deb"
-    checksum = "5297d7efe843c61ee5e874009a076ec5b6f74974b79675f6c4a9ff0e8e0eeaab"
+    url = "https://updates.signal.org/desktop/apt/pool/main/s/signal-desktop/signal-desktop_1.28.0_amd64.deb"
+    checksum = "792e41cda8554945d8d7c698bd1e5801f06d65055e823365a12975e5ca308d91"
 
 [[direct]]
 name = "google-chrome-stable"
