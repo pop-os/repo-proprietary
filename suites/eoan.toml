@@ -60,3 +60,11 @@ version = "current"
 
     [[direct.urls]]
     url = "https://release.gitkraken.com/linux/${name}-amd64.deb"
+
+[[direct]]
+name = "plex-media-server"
+version = "1.18.2.2058-e67a4e892"
+
+    [[direct.urls]]
+    url = "https://downloads.plex.tv/plex-media-server-new/1.18.2.2058-e67a4e892/debian/plexmediaserver_1.18.2.2058-e67a4e892_amd64.deb"
+    checksum = "a48082bce73747257ca754198992214ff3fad805fe989ff2fda46052315f38b1"
