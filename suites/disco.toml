@@ -25,11 +25,11 @@ version = "0.0.9"
 
 [[direct]]
 name = "slack-desktop"
-version = "4.1.1"
+version = "4.2.0"
 
     [[direct.urls]]
     url = "https://downloads.slack-edge.com/linux_releases/${name}-${version}-amd64.deb"
-    checksum = "2e84af28a9179faf1a6c64e36e6316792531de1d4530fcd2909e5eae77d1ced9"
+    checksum = "db4666023c1b82f0f7fbfbdbeb04b485898edb73ca5d869b8c8e003f219d6205"
 
 [[direct]]
 name = "spotify-client"
