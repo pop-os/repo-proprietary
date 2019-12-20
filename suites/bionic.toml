@@ -8,11 +8,11 @@ extra_repos = [ "deb http://ppa.launchpad.net/system76/pop/ubuntu bionic main" ]
 
 [[direct]]
 name = "code"
-version = "1.41.0-1576089540"
+version = "1.41.1-1576681836"
 
     [[direct.urls]]
-    url = "https://az764295.vo.msecnd.net/stable/9579eda04fdb3a9bba2750f15193e5fafe16b959/code_1.41.0-1576089540_amd64.deb"
-    checksum = "1a31d11fa22432905a0bdfc097559ebaaff60730716b67b626080fff6f27848a"
+    url = "https://az764295.vo.msecnd.net/stable/26076a4de974ead31f97692a0d32f90d735645c0/code_1.41.1-1576681836_amd64.deb"
+    checksum = "e5314b3599081c4fb0d9c286a0bcbb94c82bfde9a3a3a51f226732970c8e9eb8"
 
 [[direct]]
 name = "discord"
