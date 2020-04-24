@@ -8,44 +8,19 @@ extra_repos = [ "deb http://ppa.launchpad.net/system76/pop/ubuntu focal main" ]
 
 [[direct]]
 name = "code"
-version = "1.41.1-1576681836"
+version = "1.44.2-1587059832"
 
     [[direct.urls]]
-    url = "https://az764295.vo.msecnd.net/stable/26076a4de974ead31f97692a0d32f90d735645c0/code_1.41.1-1576681836_amd64.deb"
-    checksum = "e5314b3599081c4fb0d9c286a0bcbb94c82bfde9a3a3a51f226732970c8e9eb8"
-
-[[direct]]
-name = "discord"
-version = "0.0.9"
-
-    [[direct.urls]]
-    url = "https://dl.discordapp.net/apps/linux/0.0.9/discord-0.0.9.deb"
-    checksum = "2a5f0f0e940d2d2dbb9a789baab1a58a54e7dacc598d628b2667b5244df84bbf"
-    arch = "amd64"
+    url = "https://az764295.vo.msecnd.net/stable/ff915844119ce9485abfe8aa9076ec76b5300ddd/code_1.44.2-1587059832_amd64.deb"
+    checksum = "3df4161bbc683c8a73691e1d36878eaf7f234c753420277f29fbc1e7096435d2"
 
 [[direct]]
 name = "slack-desktop"
-version = "4.2.0"
+version = "4.2.2"
 
     [[direct.urls]]
     url = "https://downloads.slack-edge.com/linux_releases/${name}-${version}-amd64.deb"
-    checksum = "db4666023c1b82f0f7fbfbdbeb04b485898edb73ca5d869b8c8e003f219d6205"
-
-[[direct]]
-name = "spotify-client"
-version = "1.1.10.546.ge08ef575-19"
-
-    [[direct.urls]]
-    url = "http://repository.spotify.com/pool/non-free/s/${name}/${name}_${version}_amd64.deb"
-    checksum = "da49fd4d222ff7d719345fba6298f38a6422ef293bb43ada13cf857a694a12e6"
-
-[[direct]]
-name = "signal-desktop"
-version = "1.29.6"
-
-    [[direct.urls]]
-    url = "https://updates.signal.org/desktop/apt/pool/main/s/signal-desktop/signal-desktop_1.29.6_amd64.deb"
-    checksum = "4470b6697a611ed338c1e1e809d0fc713878a97347c5e25df9dd82ed276139e8"
+    checksum = "5aaa055652155773985c6b2d45b87e6321c1f98213218dfc8e416cbc44043a73"
 
 [[direct]]
 name = "google-chrome-stable"
@@ -55,16 +30,9 @@ version = "current"
     url = "https://dl.google.com/linux/direct/${name}_${version}_amd64.deb"
 
 [[direct]]
-name = "gitkraken"
-version = "current"
-
-    [[direct.urls]]
-    url = "https://release.gitkraken.com/linux/${name}-amd64.deb"
-
-[[direct]]
 name = "plex-media-server"
-version = "1.18.2.2058-e67a4e892"
+version = "1.19.1.2701-6327e27bf"
 
     [[direct.urls]]
-    url = "https://downloads.plex.tv/plex-media-server-new/1.18.2.2058-e67a4e892/debian/plexmediaserver_1.18.2.2058-e67a4e892_amd64.deb"
-    checksum = "a48082bce73747257ca754198992214ff3fad805fe989ff2fda46052315f38b1"
+    url = "https://downloads.plex.tv/plex-media-server-new/1.19.1.2701-6327e27bf/debian/plexmediaserver_1.19.1.2701-6327e27bf_amd64.deb"
+    checksum = "aedee3bf69fc60fd86ca32555ce67ed6bc350d5552fd52df389d36c0b5875155"
