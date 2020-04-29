@@ -16,7 +16,7 @@ version = "1.44.2-1587059832"
 
 [[direct]]
 name = "slack-desktop"
-version = "4.2.2"
+version = "4.4.2"
 
     [[direct.urls]]
     url = "https://downloads.slack-edge.com/linux_releases/${name}-${version}-amd64.deb"
