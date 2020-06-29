@@ -7,6 +7,15 @@ architectures = [ "amd64" ]
 extra_repos = [ "deb http://ppa.launchpad.net/system76/pop/ubuntu focal main" ]
 
 [[direct]]
+name = "discord"
+version = "0.0.10"
+
+    [[direct.urls]]
+    url = "https://dl.discordapp.net/apps/linux/${version}/discord-${version}.deb"
+    checksum = "24c07fa3f421c001cce033e460a29d40de019e69e7ad7a7da71b6586b6dedbde"
+    arch = "amd64"
+
+[[direct]]
 name = "code"
 version = "1.44.2-1587059832"
 
