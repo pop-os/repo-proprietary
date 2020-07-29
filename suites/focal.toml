@@ -17,11 +17,11 @@ version = "0.0.10"
 
 [[direct]]
 name = "code"
-version = "1.46.1-1592428892"
+version = "1.47.3-1595520028"
 
     [[direct.urls]]
-    url = "https://az764295.vo.msecnd.net/stable/cd9ea6488829f560dc949a8b2fb789f3cdc05f5d/code_1.46.1-1592428892_amd64.deb"
-    checksum = "8ad0dec20927d22efbffcbbd2d642e4f57cbeee4bd4deba8eae61d1c9362d8ea"
+    url = "https://az764295.vo.msecnd.net/stable/91899dcef7b8110878ea59626991a18c8a6a1b3e/code_1.47.3-1595520028_amd64.deb"
+    checksum = "0e8dc6a707d4acb14e9362ea8228b40a2507c1440c339ee95dc3b8a8feb81f5a"
 
 [[direct]]
 name = "slack-desktop"
