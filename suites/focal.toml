@@ -8,11 +8,11 @@ extra_repos = [ "deb http://ppa.launchpad.net/system76/pop/ubuntu focal main" ]
 
 [[direct]]
 name = "discord"
-version = "0.0.10"
+version = "0.0.11"
 
     [[direct.urls]]
     url = "https://dl.discordapp.net/apps/linux/${version}/discord-${version}.deb"
-    checksum = "24c07fa3f421c001cce033e460a29d40de019e69e7ad7a7da71b6586b6dedbde"
+    checksum = "3e6e5de5aac7b565f80fd430d3b2ba86cb767997eadcaf18815413aea08ca08b"
     arch = "amd64"
 
 [[direct]]
