@@ -1,0 +1,47 @@
+archive = "groovy"
+version = "20.10"
+origin = "system76"
+label = "System76"
+email = "info@system76.com"
+architectures = [ "amd64" ]
+extra_repos = [ "deb http://ppa.launchpad.net/system76/pop/ubuntu groovy main" ]
+
+[[direct]]
+name = "discord"
+version = "0.0.10"
+
+    [[direct.urls]]
+    url = "https://dl.discordapp.net/apps/linux/${version}/discord-${version}.deb"
+    checksum = "24c07fa3f421c001cce033e460a29d40de019e69e7ad7a7da71b6586b6dedbde"
+    arch = "amd64"
+
+[[direct]]
+name = "code"
+version = "1.47.3-1595520028"
+
+    [[direct.urls]]
+    url = "https://az764295.vo.msecnd.net/stable/91899dcef7b8110878ea59626991a18c8a6a1b3e/code_1.47.3-1595520028_amd64.deb"
+    checksum = "0e8dc6a707d4acb14e9362ea8228b40a2507c1440c339ee95dc3b8a8feb81f5a"
+
+[[direct]]
+name = "slack-desktop"
+version = "4.4.2"
+
+    [[direct.urls]]
+    url = "https://downloads.slack-edge.com/linux_releases/${name}-${version}-amd64.deb"
+    checksum = "5aaa055652155773985c6b2d45b87e6321c1f98213218dfc8e416cbc44043a73"
+
+[[direct]]
+name = "google-chrome-stable"
+version = "current"
+
+    [[direct.urls]]
+    url = "https://dl.google.com/linux/direct/${name}_${version}_amd64.deb"
+
+[[direct]]
+name = "plex-media-server"
+version = "1.19.1.2701-6327e27bf"
+
+    [[direct.urls]]
+    url = "https://downloads.plex.tv/plex-media-server-new/1.19.1.2701-6327e27bf/debian/plexmediaserver_1.19.1.2701-6327e27bf_amd64.deb"
+    checksum = "aedee3bf69fc60fd86ca32555ce67ed6bc350d5552fd52df389d36c0b5875155"
