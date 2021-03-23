@@ -1,0 +1,46 @@
+archive = "hirsute"
+version = "21.04"
+origin = "system76"
+label = "System76"
+email = "info@system76.com"
+architectures = [ "amd64" ]
+
+[[direct]]
+name = "discord"
+version = "0.0.13"
+
+    [[direct.urls]]
+    url = "https://dl.discordapp.net/apps/linux/${version}/discord-${version}.deb"
+    checksum = "7b048a32f016de19ee0a845a3fa333c281dec6bcad4d25cdc6114aab7e33dac3"
+    arch = "amd64"
+
+[[direct]]
+name = "code"
+version = "1.51.1-1605051630"
+
+    [[direct.urls]]
+    url = "https://az764295.vo.msecnd.net/stable/e5a624b788d92b8d34d1392e4c4d9789406efe8f/code_1.51.1-1605051630_amd64.deb"
+    checksum = "d101b6ee4445875ee115fd19ad6488a70a0780f12659602229bfb433860823cc"
+
+[[direct]]
+name = "slack-desktop"
+version = "4.4.2"
+
+    [[direct.urls]]
+    url = "https://downloads.slack-edge.com/linux_releases/${name}-${version}-amd64.deb"
+    checksum = "5aaa055652155773985c6b2d45b87e6321c1f98213218dfc8e416cbc44043a73"
+
+[[direct]]
+name = "google-chrome-stable"
+version = "current"
+
+    [[direct.urls]]
+    url = "https://dl.google.com/linux/direct/${name}_${version}_amd64.deb"
+
+[[direct]]
+name = "plex-media-server"
+version = "1.19.1.2701-6327e27bf"
+
+    [[direct.urls]]
+    url = "https://downloads.plex.tv/plex-media-server-new/1.19.1.2701-6327e27bf/debian/plexmediaserver_1.19.1.2701-6327e27bf_amd64.deb"
+    checksum = "aedee3bf69fc60fd86ca32555ce67ed6bc350d5552fd52df389d36c0b5875155"
