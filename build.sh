@@ -17,7 +17,7 @@ function install_debrep {
 	fi
 
 	if [ "$INSTALL" ]; then
-		cargo install --git https://github.com/pop-os/debrepbuild --force
+		rustup run stable cargo install --git https://github.com/pop-os/debrepbuild --force
 	fi
 }
 
