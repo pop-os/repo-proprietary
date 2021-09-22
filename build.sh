@@ -2,7 +2,7 @@
 
 set -ex
 
-SUITES=(bionic focal groovy hirsute impish)
+SUITES=(bionic focal hirsute impish)
 
 function install_debrep {
 	LATEST="$(git ls-remote https://github.com/pop-os/debrepbuild | grep HEAD | cut -c-7)"
