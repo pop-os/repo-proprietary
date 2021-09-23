@@ -7,6 +7,14 @@ architectures = [ "amd64" ]
 extra_repos = [ "deb http://ppa.launchpad.net/system76/pop/ubuntu focal main" ]
 
 [[direct]]
+name = "code"
+version = "1.60.1-1631294805"
+
+    [[direct.urls]]
+    url = "https://az764295.vo.msecnd.net/stable/83bd43bc519d15e50c4272c6cf5c1479df196a4d/code_1.60.1-1631294805_amd64.deb"
+    checksum = "7606eabb7b38535d6533524876820ed5cdd9b56a47c9d953dd1f3ffcb4aaffbf"
+
+[[direct]]
 name = "discord"
 version = "0.0.16"
 
@@ -16,20 +24,12 @@ version = "0.0.16"
     arch = "amd64"
 
 [[direct]]
-name = "code"
-version = "1.58.2-1626302803"
-
-    [[direct.urls]]
-    url = "https://az764295.vo.msecnd.net/stable/c3f126316369cd610563c75b1b1725e0679adfb3/code_1.58.2-1626302803_amd64.deb"
-    checksum = "c1fa404ef9c2779449640b071797b82bf159b8f99737b5c4108df945d04ffda5"
-
-[[direct]]
 name = "slack-desktop"
-version = "4.4.2"
+version = "4.19.2"
 
     [[direct.urls]]
     url = "https://downloads.slack-edge.com/linux_releases/${name}-${version}-amd64.deb"
-    checksum = "5aaa055652155773985c6b2d45b87e6321c1f98213218dfc8e416cbc44043a73"
+    checksum = "aa2ce20f6f724e28ee8b9ceed555902f4ce822ea1bce01bc600706caf3add70a"
 
 [[direct]]
 name = "google-chrome-stable"
