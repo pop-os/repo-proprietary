@@ -27,7 +27,10 @@ function update_submodules {
 
 function merge_repo {
 	for suite in "${SUITES[@]}"; do
-		tail -n +6 "$1/suites/$suite.toml" | grep -v extra_repos >> "build/suites/$suite.toml"
+		if [ -f "$1/suites/$suite.toml" ]
+		then
+			tail -n +6 "$1/suites/$suite.toml" | grep -v extra_repos >> "build/suites/$suite.toml"
+		fi
 	done
 	rsync -avz --exclude='LICENSE' \
 		--exclude='suites/' \
