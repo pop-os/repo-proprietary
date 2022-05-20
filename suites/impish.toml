@@ -7,11 +7,11 @@ architectures = [ "amd64" ]
 
 [[direct]]
 name = "code"
-version = "1.60.1-1631294805"
+version = "1.67.2-1652812855"
 
     [[direct.urls]]
-    url = "https://az764295.vo.msecnd.net/stable/83bd43bc519d15e50c4272c6cf5c1479df196a4d/code_1.60.1-1631294805_amd64.deb"
-    checksum = "7606eabb7b38535d6533524876820ed5cdd9b56a47c9d953dd1f3ffcb4aaffbf"
+    url = "https://az764295.vo.msecnd.net/stable/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/code_1.67.2-1652812855_amd64.deb"
+    checksum = "0d01848bfac9cef3a9d28c1e27453d6914fc04564310aaa8af5320a624f1a31a"
 
 [[direct]]
 name = "discord"
