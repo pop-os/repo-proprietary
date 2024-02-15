@@ -2,7 +2,7 @@
 
 set -ex
 
-SUITES=(bionic focal impish jammy)
+SUITES=(focal impish jammy)
 
 function install_debrep {
 	LATEST="$(git ls-remote https://github.com/pop-os/debrepbuild | grep HEAD | cut -c-7)"
