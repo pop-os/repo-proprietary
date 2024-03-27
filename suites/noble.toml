@@ -1,0 +1,60 @@
+archive = "noble"
+version = "24.04"
+origin = "system76"
+label = "System76"
+email = "info@system76.com"
+architectures = [ "amd64", "arm64" ]
+
+[[direct]]
+name = "code"
+version = "1.67.2-1652812855"
+
+    [[direct.urls]]
+    url = "https://az764295.vo.msecnd.net/stable/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/code_1.67.2-1652812855_amd64.deb"
+    checksum = "0d01848bfac9cef3a9d28c1e27453d6914fc04564310aaa8af5320a624f1a31a"
+
+[[direct]]
+name = "discord"
+version = "0.0.47"
+
+    [[direct.urls]]
+    url = "https://dl.discordapp.net/apps/linux/${version}/discord-${version}.deb"
+    checksum = "5aa9dd67683ce896949d2b016093d90a9498609cd9cc112b02bc16a2783944f9"
+    arch = "amd64"
+
+[[direct]]
+name = "slack-desktop"
+version = "4.33.90"
+
+    [[direct.urls]]
+    url = "https://downloads.slack-edge.com/releases/linux/${version}/prod/x64/${name}-${version}-amd64.deb"
+    checksum = "54a73d1f85d65c900b2973e7d737a00149d3dad37d9960f9dadff097a2e854dc"
+
+[[direct]]
+name = "google-chrome-stable"
+version = "current"
+
+    [[direct.urls]]
+    url = "https://dl.google.com/linux/direct/${name}_${version}_amd64.deb"
+
+[[direct]]
+name = "plex-media-server"
+version = "1.19.1.2701-6327e27bf"
+
+    [[direct.urls]]
+    url = "https://downloads.plex.tv/plex-media-server-new/1.19.1.2701-6327e27bf/debian/plexmediaserver_1.19.1.2701-6327e27bf_amd64.deb"
+    checksum = "aedee3bf69fc60fd86ca32555ce67ed6bc350d5552fd52df389d36c0b5875155"
+
+[[direct]]
+name = "vivaldi-stable"
+version = "5.6.2867.58-1"
+
+    [[direct.urls]]
+    url = "https://downloads.vivaldi.com/stable/${name}_${version}_amd64.deb"
+    checksum = "7911d068aced7faea8f45a023524725d2e47b7a779d464e294d3b90f122d502c"
+    arch = "amd64"
+
+    [[direct.urls]]
+    url = "https://downloads.vivaldi.com/stable/${name}_${version}_arm64.deb"
+    checksum = "9effa38e5ff3c687a34ecbaaae978c4806ba409e1bfbedb5235248a7285980c4"
+    arch = "arm64"
