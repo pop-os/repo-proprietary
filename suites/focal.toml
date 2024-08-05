@@ -16,11 +16,11 @@ version = "1.67.2-1652812855"
 
 [[direct]]
 name = "discord"
-version = "0.0.62"
+version = "0.0.63"
 
     [[direct.urls]]
     url = "https://dl.discordapp.net/apps/linux/${version}/discord-${version}.deb"
-    checksum = "6f9773a9101e5ebf6dfd3c44692426f8c4263dad8594e2e9a415f212f2a40298"
+    checksum = "0e2dba481628a78dbce6690e66a1f1ecc1684f01c35130cfe07a35b836879bbc"
     arch = "amd64"
 
 [[direct]]
