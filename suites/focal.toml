@@ -20,8 +20,8 @@ version = "0.0.90-1"
 
     [[direct.urls]]
 #    url = "https://dl.discordapp.net/apps/linux/${version}/discord-${version}.deb"
-    url = "https://dl.discordapp.net/apps/linux/0.0.89/discord-0.0.89.deb"
-    checksum = "e46dc8f2cd823671cfa0cd9c8de97c54febe6622265ffe823f883febe60a5d6a"
+    url = "https://www.dropbox.com/scl/fi/3at99qzffc9re726e7ddn/discord-0.0.90-custom.deb?rlkey=k4p6rz0xvkpo8hp36pz0symzo&st=9avqhsiu&dl=1"
+    checksum = "6583a83f35b3c2f1a3bf8cd47c96464d93aafd4ba7d93f79982111837db91865"
     arch = "amd64"
 
 [[direct]]
