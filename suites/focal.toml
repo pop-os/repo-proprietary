@@ -8,11 +8,11 @@ extra_repos = [ "deb http://ppa.launchpad.net/system76/pop/ubuntu focal main" ]
 
 [[direct]]
 name = "code"
-version = "1.67.2-1652812855"
+version = "1.100.0-1746623151"
 
     [[direct.urls]]
-    url = "https://az764295.vo.msecnd.net/stable/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/code_1.67.2-1652812855_amd64.deb"
-    checksum = "0d01848bfac9cef3a9d28c1e27453d6914fc04564310aaa8af5320a624f1a31a"
+    url = "https://vscode.download.prss.microsoft.com/dbazure/download/stable/19e0f9e681ecb8e5c09d8784acaa601316ca4571/code_1.100.0-1746623151_amd64.deb"
+    checksum = "e2a0fdfda3f9106bf4de745c197e56e2617de9b8a8148e9fb28ac4b48849a7e9"
 
 [[direct]]
 name = "discord"
