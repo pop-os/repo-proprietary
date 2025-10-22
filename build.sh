@@ -2,7 +2,7 @@
 
 set -ex
 
-SUITES=(focal impish jammy noble)
+SUITES=(focal impish jammy noble resolute)
 
 function install_debrep {
 	LATEST="$(git ls-remote https://github.com/pop-os/debrepbuild | grep HEAD | cut -c-7)"
